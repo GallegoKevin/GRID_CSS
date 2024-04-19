@@ -6,33 +6,33 @@
 }
 
 main{
-    background-color: white;
+    background-color: #F9FAFC;
     width: 1000px;
     height: 20000px;
     margin: 0 auto;
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(199, 61%, 93%);
+    background-color: #E3EFF7;
     color: white;
 
 }
 
-.head-01 {
-    width: 1000px;
+.sec-01 {
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     height: 110px;
-    /*border: 1px solid white;*/
-    background-color: rgb(0, 122, 221);
+    border: 1px solid orangered;
+    background-color:  #0063FF;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .cont-01 {
   
-    align-content: end ;
+    align-items: end ;
     width: 220px;
     border: 1px solid black;
     text-align: start;
@@ -62,10 +62,86 @@ body{
     font-size: 20px;
 }
 
-.sec-01{
+.sec-02{
     width: 1000px;
-    height: 500PX;
-    background-color: rgb(231, 231, 153);
+    height: 600px;
+    background-color: rgb(241, 241, 240);
+    border: 1px solid deeppink;
     margin: 0 auto;
+}
 
+.ed-01{
+    width: 880px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 55px;
+}
+
+h2{
+    color: orangered;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.font-01{
+    color: black;
+    font-size: 35px;
+    border: 1px solid olive;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 550;
+}
+
+.list-01{
+    border: 1px solid rgb(2, 0, 99);
+    max-width: 880px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 13px;
+    padding: 4px;
+}
+
+.art-01{
+    border: 1px solid red;
+    background-color: white;
+    padding: 1px 9px 1px 9px;
+    border-radius: 10px;
+}
+h3{
+    color: black;
+    font-size: 0.8em;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+
+.contx-01{
+    color: black;
+    font-size: 0.87em;
+    
+    margin: 8px 0 10px 0;
+    border: 1px solid brown;
+}
+
+.f01{
+    margin: 20px 0px 10px 0px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+}
+
+
+img{
+
+    border-radius: 5px;
+    
+    width: 40px;
+    height: 40px;
+    margin: 0;
 }
