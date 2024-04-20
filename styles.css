@@ -24,7 +24,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     height: 110px;
-    border: 1px solid orangered;
+    border: 1px solid rgb(0, 221, 99);
     background-color:  #0063FF;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body{
     /*background-color: rgb(202, 163, 163);*/
     color: rgb(255, 255, 255);
     margin-left: 1px;
-    
+    font-weight: 500;
     padding-left: 19px;
 }
 
@@ -53,6 +53,7 @@ body{
     margin-left: 1px;
     border-left: 1px solid rgb(255, 255, 255);
     padding-left: 19px;
+    font-weight: 500;
 
 }
 
@@ -64,7 +65,7 @@ body{
 
 .sec-02{
     width: 1000px;
-    height: 600px;
+    height: 400px;
     background-color: rgb(241, 241, 240);
     border: 1px solid deeppink;
     margin: 0 auto;
@@ -84,6 +85,7 @@ h2{
     text-transform: uppercase;
     margin: 10px auto;
     text-align: center;
+   
 }
 
 .font-01{
@@ -93,7 +95,7 @@ h2{
     width: 500px;
     margin: 0 auto;
     text-align: center;
-    font-weight: 550;
+    font-weight: bolder;
 }
 
 .list-01{
@@ -103,7 +105,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 13px;
-    padding: 4px;
+    padding: 10px 5px;
 }
 
 .art-01{
