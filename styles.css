@@ -13,8 +13,7 @@
 
 main{
     background-color: #F9FAFC;
-    width: 1000px;
-    height: 920px;
+    max-width: 1000px;
     margin: 0 auto;
    
 }
@@ -26,7 +25,7 @@ body{
 }
 
 .hd-01 {
-    max-width: 1000px;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -95,6 +94,7 @@ h2{
     font-family: Recta-W01-Medium-Condensed; 
     margin: 10px auto;
     text-align: center;
+
    
 }
 
@@ -173,7 +173,7 @@ img{
     max-width: 1000px;
     height:330px;
     background-color: rgb(255, 255, 255);
-    /*border: 1px solid rgb(223, 16, 16);*/
+    border: 1px solid rgb(255, 255, 255);
     margin: 0 auto;
 }
 
