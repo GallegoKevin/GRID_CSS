@@ -11,19 +11,19 @@
 }
 
 
-main{
-    background-color: #F9FAFC;
-    max-width: 1000px;
-    margin: 0 auto;
-   
-}
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #E3EFF7;
     color: white;
-
 }
 
+main{
+    background-color: #F9FAFC;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*-----------------HEADER---------------*/
 .hd-01 {
     width: 1000px;
     margin: 0 auto;
@@ -70,7 +70,7 @@ body{
     line-height: 1.5em;
 }
 
-
+/* ---------------------SECCIÓN------------------ 1*/
 .sec-02{
     width: 1000px;
     height: 420px;
@@ -167,7 +167,7 @@ img{
     margin: 0;
 }
 
-/*----------------------*/
+/*-----------SECCION 2-----------*/
 
 .sec-03{
     max-width: 1000px;
